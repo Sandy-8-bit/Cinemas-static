@@ -1,0 +1,36 @@
+.theatre-spec {
+    text-align: center; /* Center align the content */
+    color: white;
+    background-image: url('seats.svg'),linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .theatre-spec h1{
+    margin: 0px;
+    padding-top: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .marginn{
+    margin-top: 20px;
+  }
+  
+  .spec-list {
+    margin-top: 10px; /* Example margin for spacing between h3 elements */
+    padding-bottom: 30px;
+  }
+  
+  .spec-list h3 {
+    margin: 30px 0; /* Adjust margin as needed */
+    font-size: 1.2em; /* Example font size */
+    font-weight: normal; /* Example font weight */
+    color: white; /* Example text color */
+    gap: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+  

@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+}
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.stelogo{
+    padding-top: 7px;
+}
+.line{
+    width: 1450px;
+}
+.flexing{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.first-one{
+    color: aliceblue;
+    width: 600px;
+    justify-content: left;
+    padding-right: 200px;
+
+}
+.first-one h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.first-one p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.second-one{
+    padding-top: 55px;
+    padding-right: 200px;
+}
+.second-one p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.second-one p:hover{
+    cursor: pointer;
+}
+.third-one h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: end;
+
+}
+.third-one p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: end;
+}
+.para{
+    color: #909090;
+    padding-top: 20px;
+}

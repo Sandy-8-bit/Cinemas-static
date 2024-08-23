@@ -1,0 +1,131 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+.priv-centre{
+    background-image: url('privatebg.svg');
+    height: 500px;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.contactus{
+    margin: 0;
+    font-size: 700;
+    padding-top: 30px;
+    padding-left: 40px;
+} 
+.parag{
+    padding-left: 40px;
+}
+.rightt{
+    height: 500px;
+    width: 574px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    margin-right: 70px;
+    border: 2px;
+    border-radius: 30px;
+    box-shadow:2px 4px 4px 4px rgba(255, 255, 255, 0.3);
+}
+.first-box{
+    width: 216px;
+    height: 47px;
+    color:#ffffff;
+    background-color: #272727;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 58px;
+}
+.first-row{
+    justify-self: center;
+    display: flex;
+}
+.second-box{
+    width: 216px;
+    height: 47px;
+    color:#ffffff;
+    background-color: #272727;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-right:58px;
+    
+}
+
+.third-box{
+    
+        width: 456px;
+        height: 47px;
+        color:#ffffff;
+        background-color: #272727;
+        border-radius: 5px;
+        margin-top: 30px;
+        margin-left: 58px;
+        margin-right: 58px;
+    
+}
+.third-box::placeholder{
+    color: white;
+}
+.second-box::placeholder{
+    color: white;
+}
+.first-box::placeholder{
+    color: white;
+}
+.fourth-box{
+    width: 456px;
+    height: 120px;
+    color:#ffffff;
+    background-color: #272727   ;
+    border-radius: 5px;
+    margin-top: 30px;
+  
+    margin-left: 58px;
+    margin-right: 58px;
+}
+.fourth-box::placeholder{
+    color: #ededed;
+    font-size: 400;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.button-click{
+    padding: 5px ;
+    background-color: #DC143C;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 200px;
+    margin-top: 18px;
+    width: 140px;
+    height: 32px;
+    font-weight: 300;
+}
+.first-row{
+    display: flex;
+    gap: 25px;
+}
+.check{
+    margin-left: 80px;
+    margin-top: 10px;
+    display: flex;
+    gap: 6px;
+}
+.reg{
+    font-size: small;
+    font-weight: 400;
+    color: #B7B7B7;
+}
+.check-box{
+    border-radius: 20px;
+    color: #B7B7B7;
+    background-color: #B7B7B7;
+}

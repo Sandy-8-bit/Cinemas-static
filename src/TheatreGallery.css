@@ -1,0 +1,63 @@
+.gallery-container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-image: url("backgroundd.svg"),linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    color: aliceblue;
+  
+  }
+  .words{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    height: 500px; /* Set a fixed height for the image container */
+  
+  }
+  .Galleryname {
+    margin: 0px;
+    padding-top: 100px;
+    
+  }
+  .gallery-image {
+    max-width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Add transform transition */
+    position: absolute; /* Position absolute for centered effect */
+    left: 50%; /* Center horizontally */
+     /* Center vertically */
+    transform: translateX(-50%);
+    padding-bottom: 100px;
+  }
+  
+  .gallery-image.active {
+    opacity: 1;
+    align-items: center;
+  }
+  
+  .arrow-button {
+    position: absolute;
+    top: 58%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1; /* Ensure buttons are above the image */
+    font-size: 1.5rem; /* Example font size */
+  }
+  
+  .arrow-button.lefts {
+    left: 10px;
+  }
+  
+  .arrow-button.rights {
+    right: 10px;
+  }
