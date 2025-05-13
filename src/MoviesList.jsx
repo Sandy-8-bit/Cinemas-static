@@ -78,7 +78,13 @@ const MoviesList = () => {
               <h2 className="movie-name">{movie.name}</h2>
               <p className="movie-language">{movie.language}</p>
             </div>
-            <button className="book-button">Book Ticket</button>
+            <button
+  className="book-button"
+  onClick={() => window.location.href = "https://colab.research.google.com/drive/1TPdU7u2MC4PKRZVNpRYJotyvT5viIg7K#scrollTo=hcQy7bI5ddfE"}
+>
+  Book Ticket
+</button>
+
           </div>
         ))}
         <img src={theatre} alt="Theatre Poster" />
